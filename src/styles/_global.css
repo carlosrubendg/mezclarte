@@ -1,0 +1,26 @@
+:root {
+  --white: #eceff1;
+  --blue: #01579b;
+  --orange: #d84315;
+  --title: #263238;
+  --text: #455a64;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--title);
+}
+
+a {
+  text-decoration: none;
+}

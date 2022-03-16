@@ -1,0 +1,163 @@
+.HomeContent {
+  background-color: var(--white);
+  width: 100%;
+  padding: 100px 0;
+}
+
+.HomeContent h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
+  color: var(--title);
+}
+
+.HomeContent h3 {
+  color: var(--title);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.HomeContent h4 {
+  color: var(--title);
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.HomeContent p {
+  font-size: 1.6rem;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+.HomeContent__content {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.HomeContent__main {
+  display: inline-block;
+  width: 75%;
+  height: 100%;
+  padding-right: 50px;
+}
+
+.HomeContent__gallery {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HomeContent__concursos {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.HomeContent__cardConcursos {
+  display: flex;
+  width: 50%;
+}
+
+.HomeContent__cardConcursos:nth-child(2n+1) {
+  padding-right: 20px;
+}
+
+.HomeContent__cardConcursos:nth-child(2n) {
+  padding-left: 20px;
+}
+
+.HomeContent__cardConcursos:hover img {
+  transform: scale(1.2);
+  filter: brightness(0.8);
+  transition: 1000ms;
+}
+
+.HomeContent__cardConcursos a {
+  display: flex;
+}
+
+.HomeContent__cardConcursosImg {
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+
+.HomeContent__cardConcursosImg img {
+  width: 100%;
+  object-fit: cover;
+  transition: 500ms;
+}
+
+.HomeContent__cardConcursosInfo {
+  width: 60%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.HomeContent__cardConcursosInfo p {
+  margin: 0;
+}
+
+.HomeContent__colectivos {
+  margin-top: 100px;
+}
+
+.HomeContent__cardColectivos {
+  width: 33.33%;
+}
+
+.HomeContent__cardColectivos:nth-child(1) {
+  padding-right: 20px;
+}
+
+.HomeContent__cardColectivos:nth-child(2) {
+  padding: 0 20px;
+}
+
+.HomeContent__cardColectivos:nth-child(3) {
+  padding-left: 20px;
+}
+
+.HomeContent__cardColectivos:hover img {
+  transform: scale(1.2);
+  filter: brightness(0.8);
+  transition: 1000ms;
+}
+
+.HomeContent__cardColectivosImg {
+  width: 100%;
+  height: 400px;
+  border-radius: 50px;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+
+.HomeContent__cardColectivosImg img {
+  width: 100%;
+  object-fit: cover;
+  transition: 500ms;
+}
+
+.HomeContent__cardColectivosInfo {
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1280px) {
+  .HomeContent {
+    padding: 100px;
+  }
+}

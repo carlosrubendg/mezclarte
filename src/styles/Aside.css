@@ -1,0 +1,20 @@
+.Aside {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  background-color: var(--white);
+  padding-left: 50px;
+}
+
+.Aside__addElement {
+  width: 100%;
+  max-height: 250px;
+}
+
+.Aside__addElement:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.Aside__addElement img {
+  width: 100%;
+}
