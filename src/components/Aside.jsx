@@ -1,12 +1,13 @@
 import React from 'react'
 import '../styles/Aside.css'
+import ExintexBanner from '../assets/_global/Exintex_add_banner.jpeg'
 
 const Aside = () => {
   return (
     <aside className="Aside">
       <div className="Aside__addElement">
         <a href>
-          <img src="https://i0.wp.com/fashionnews.com.mx/wp-content/uploads/2022/01/banner-lateral-exintex-sm.jpeg?w=640&ssl=1" alt="Exintex add banner" />
+          <img src={ExintexBanner} alt="Exintex add banner" />
         </a>
       </div>
     </aside>

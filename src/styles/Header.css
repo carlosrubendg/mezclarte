@@ -73,7 +73,7 @@
 .HeaderBot {
   height: 50px;
   background-color: var(--white);
-  border-top: 4px solid var(--orange);
+  border-top: 4px solid var(--title);
 }
 
 .HeaderBot__content {

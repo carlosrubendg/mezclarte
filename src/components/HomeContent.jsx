@@ -1,6 +1,11 @@
 import React from 'react'
 import Aside from './Aside'
 import '../styles/HomeContent.css'
+import Concurso2017N35 from '../assets/concursos/concurso2017/Mezclarte_2017_35.jpeg'
+import Concurso2014N43 from '../assets/concursos/concurso2014/Mezclarte_2014_43.jpeg'
+import Colectivo2020N01 from '../assets/colectivos/colectivo2020/Colectivo_2020_1.jpeg'
+import Colectivo2019N19 from '../assets/colectivos/colectivo2019/Colectivo_2019_19.jpeg'
+import Colectivo2015N38 from '../assets/colectivos/colectivo2015/Colectivo_2015_38.jpeg'
 
 
 const HomeContent = () => {
@@ -23,13 +28,13 @@ const HomeContent = () => {
           <div className="HomeContent__concursos">
             <h2>Concursos Mezclarte</h2>
             <p>
-              Las ediciones anteriores han tenido mucho éxito. Aquí presentamos a los ganadores de los últimos 4 concursos.
+              Las ediciones anteriores han tenido mucho éxito. Aquí presentamos a los ganadores de algunos concursos.
             </p>
             <div className="HomeContent__gallery">
               <div className="HomeContent__cardConcursos">
                 <a href="./concursos/mezclarte-2017.html">
                   <div className="HomeContent__cardConcursosImg">
-                    <img src="http://mezclarte.fashionnews.com.mx/img/index/Disenio%20Mezclarte%202017%20ganador.jpg" alt="Ganador Mezclarte 2017 - Los Rolling Stones" />
+                    <img src={Concurso2017N35} alt="Ganador Mezclarte 2017 - Los Rolling Stones" />
                   </div>
                   <div className="HomeContent__cardConcursosInfo">
                     <h3>Los Rolling Stones</h3>
@@ -43,7 +48,7 @@ const HomeContent = () => {
               <div className="HomeContent__cardConcursos">
                 <a href="./concursos/mezclarte-2014.html">
                   <div className="HomeContent__cardConcursosImg">
-                    <img src="http://mezclarte.fashionnews.com.mx/img/index/Disenio%20Mezclarte%202014%20ganador.jpg" alt="Ganador Mezclarte 2014 - Madonna" />
+                    <img src={Concurso2014N43} alt="Ganador Mezclarte 2014 - Madonna" />
                   </div>
                   <div className="HomeContent__cardConcursosInfo">
                     <h3>Madonna</h3>
@@ -62,7 +67,7 @@ const HomeContent = () => {
               <div className="HomeContent__cardColectivos">
                 <a href="./colectivos/mezclarte-2020.html">
                   <div className="HomeContent__cardColectivosImg">
-                    <img src="http://mezclarte.fashionnews.com.mx/img/index/Colectivo%20Mezclarte%202020.jpg" alt="Colectivo Mezclarte 2020 - Errante Ecológico" />
+                    <img src={Colectivo2020N01} alt="Colectivo Mezclarte 2020 - Errante Ecológico" />
                   </div>
                   <div className="HomeContent__cardColectivosInfo">
                     <h3>Errante ecológico</h3>
@@ -74,7 +79,7 @@ const HomeContent = () => {
               <div className="HomeContent__cardColectivos">
                 <a href="./colectivos/mezclarte-2019.html">
                   <div className="HomeContent__cardColectivosImg">
-                    <img src="http://mezclarte.fashionnews.com.mx/img/index/Colectivo%20Mezclarte%202019.jpg" alt="Colectivo Mezclarte 2019 - Vaqueros del Futuro" />
+                    <img src={Colectivo2019N19} alt="Colectivo Mezclarte 2019 - Vaqueros del Futuro" />
                   </div>
                   <div className="HomeContent__cardColectivosInfo">
                     <h3>Vaqueros del futuro</h3>
@@ -86,7 +91,7 @@ const HomeContent = () => {
               <div className="HomeContent__cardColectivos">
                 <a href="./colectivos/mezclarte-2015.html">
                   <div className="HomeContent__cardColectivosImg">
-                    <img src="http://mezclarte.fashionnews.com.mx/img/index/Colectivo%20Mezclarte%202015.jpg" alt="Colectivo Mezclarte 2015 - Tributo a los Grandes de las Artes Plásticas" />
+                    <img src={Colectivo2015N38} alt="Colectivo Mezclarte 2015 - Tributo a los Grandes de las Artes Plásticas" />
                   </div>
                   <div className="HomeContent__cardColectivosInfo">
                     <h3>Artes Plásticas</h3>

@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/Header.css';
+import MezclarteLogo from '../assets/_global/Mezclarte_logo.png'
+import SapicaBanner from '../assets/_global/Sapica_add_banner.gif'
 
 const Header = () => {
   return (
@@ -34,14 +36,14 @@ const Header = () => {
           <div className="HeaderMid__logo">
             <figure>
               <a href>
-                <img src="http://mezclarte.fashionnews.com.mx/img/Logo%20Mezclarte.png" alt="Logo Mezclarte" />
+                <img src={MezclarteLogo} alt="Logo Mezclarte" />
               </a>
             </figure>
           </div>
           <div className="HeaderMid__add_banner">
             <figure>
               <a href="https://sapica.com/" target="_blank">
-                <img src="https://i0.wp.com/fashionnews.com.mx/wp-content/uploads/2022/02/FN930x120px.gif?fit=930%2C120&ssl=1" alt="Sapica add banner" />
+                <img src={SapicaBanner} alt="Sapica add banner" />
               </a>
             </figure>
           </div>

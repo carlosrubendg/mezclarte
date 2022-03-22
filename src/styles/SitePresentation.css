@@ -1,5 +1,7 @@
+
+
 .SitePresentation {
-	background: url(http://mezclarte.fashionnews.com.mx/img/index/Portada.jpg) center fixed;
+	background: url(../assets/home/Portada.jpeg) center fixed;
 }
 
 .SitePresentation__background_color {

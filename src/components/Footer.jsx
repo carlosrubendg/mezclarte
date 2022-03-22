@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Footer.css'
+import MezclarteLogo from '../assets/_global/Mezclarte_logo.png'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="Footer_content__column">
           <figure>
             <a href>
-              <img src="http://mezclarte.fashionnews.com.mx/img/Logo%20Mezclarte.png" alt="Logo Mezclarte (footer)" />
+              <img src={MezclarteLogo} alt="Logo Mezclarte (footer)" />
             </a>
           </figure>
         </div>
