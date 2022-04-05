@@ -1,7 +1,7 @@
-
-
 .SitePresentation {
-	background: url(../assets/home/Portada.jpeg) center fixed;
+	background: url(http://mezclarte.fashionnews.com.mx/static/media/Portada.ba2fa166106f17be9ec9.jpeg);
+	background-attachment: fixed;
+	background-position: center;
 }
 
 .SitePresentation__background_color {
@@ -25,4 +25,19 @@
 	font-size: 4rem;
 	font-weight: 400;
 	text-shadow: 0px 5px 5px rgba(0,0,0,0.75);
+}
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+	.SitePresentation h1 {
+		font-size: 4rem;
+	}
+
+	.SitePresentation h2 {
+		font-size: 2rem;
+	}
+
+	.SitePresentation__background_color {
+		height: calc(100vh - 307px);
+	}
 }

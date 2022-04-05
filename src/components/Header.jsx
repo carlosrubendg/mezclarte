@@ -35,7 +35,7 @@ const Header = () => {
         <div className="HeaderMid__content">
           <div className="HeaderMid__logo">
             <figure>
-              <a href>
+              <a href="/">
                 <img src={MezclarteLogo} alt="Logo Mezclarte" />
               </a>
             </figure>
@@ -54,20 +54,16 @@ const Header = () => {
           <nav className="HeaderBot__menu">
             <ul>
               <li>
-                <a href>MEZCLARTE</a>
+                <a href="/">INICIO</a>
               </li>
               <li>
-                <a href>CONCURSOS</a>
-              </li>
-              <li>
-                <a href>COLECTIVOS</a>
+                <a href="/shop">TIENDA EN LÍNEA</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-
   )
 }
 

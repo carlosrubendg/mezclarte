@@ -156,8 +156,59 @@
   text-align: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1360px) {
   .HomeContent {
-    padding: 100px;
+    padding: 40px;
+  }
+}
+
+/* iPad Mini width: 768px */
+@media (max-width: 767px) {
+  .HomeContent {
+    padding: 52px 20px;
+  }
+
+  .HomeContent__main {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .HomeContent__concursos {
+    margin-top: 52px;
+  }
+
+  .HomeContent__cardConcursos {
+    width: 100%;
+  }
+
+  .HomeContent__cardConcursos:nth-child(2n+1) {
+    margin-bottom: 40px;
+    padding-right: 0;
+  }
+
+  .HomeContent__cardConcursos:nth-child(2n) {
+    padding-left: 0;
+  }
+
+  .HomeContent__colectivos {
+    margin-top: 52px;
+  }
+
+  .HomeContent__cardColectivos {
+    width: 100%;
+  }
+
+  .HomeContent__cardColectivos:nth-child(1) {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .HomeContent__cardColectivos:nth-child(2) {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .HomeContent__cardColectivos:nth-child(3) {
+    padding: 0;
   }
 }

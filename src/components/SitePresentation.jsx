@@ -9,6 +9,7 @@ const SitePresentation = () => {
         <h2>El arte de diseñar en mezclilla</h2>
       </div>
     </div>
+
   )
 }
 

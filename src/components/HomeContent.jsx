@@ -14,7 +14,7 @@ const HomeContent = () => {
       <div className="HomeContent__content">
         <main className="HomeContent__main">
           <div className="HomeContent__info">
-            <h2>Mezclarte</h2>
+            <h2 id="Mezclarte">Mezclarte</h2>
             <p>
               Es un concurso de diseño en mezclilla. Surge en 2005, bajo la iniciativa de Rubén Díaz, director general de FN Fashion News. El objetivo, a lo largo de sus 15 años de vida, ha sido descubrir y proyectar nuevos diseñadores creadores de prendas en mezclilla.
             </p>

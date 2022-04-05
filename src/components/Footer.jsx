@@ -4,7 +4,7 @@ import MezclarteLogo from '../assets/_global/Mezclarte_logo.png'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="Footer">
       <div className="Footer_content">
         <div className="Footer_content__column">
           <figure>
@@ -16,13 +16,10 @@ const Footer = () => {
         <div className="Footer_content__column Footer_content__column--menu">
           <ul>
             <li>
-              <a href>MEZCLARTE</a>
+              <a href="/">INICIO</a>
             </li>
             <li>
-              <a href>CONCURSOS</a>
-            </li>
-            <li>
-              <a href>COLECTIVOS</a>
+              <a href="/shop">TIENDA EN LÍNEA</a>
             </li>
           </ul>
         </div>
@@ -48,7 +45,6 @@ const Footer = () => {
         <p>Mezclarte 2022</p>
       </div>
     </footer>
-
   )
 }
 
