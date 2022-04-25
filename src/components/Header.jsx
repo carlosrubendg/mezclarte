@@ -5,7 +5,7 @@ import SapicaBanner from '../assets/_global/Sapica_add_banner.gif'
 
 const Header = () => {
   return (
-    <header>
+    <header className='Header'>
       <div className="HeaderTop">
         <div className="HeaderTop__content">
           <nav className="HeaderTop__menu">

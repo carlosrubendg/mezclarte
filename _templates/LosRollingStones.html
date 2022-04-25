@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="http://mezclarte.fashionnews.com.mx/static/media/Mezclarte_logo.5a570e2e3a29cbe595a4.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <title>LosRollingStones</title>
+
+  <style>
+    :root {
+      --white: #eceff1;
+      --blue: #01579b;
+      --orange: #d84315;
+      --title: #263238;
+      --text: #455a64;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 62.5%;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: var(--white);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .Gallery {
+      background-color: var(--white);
+      width: 100%;
+      padding: 100px 0;
+    }
+
+    .Gallery h2 {
+      font-size: 4rem;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 12px;
+      color: var(--title);
+    }
+
+    .Gallery h3 {
+      font-size: 2rem;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 12px;
+      color: var(--title);
+    }
+
+    .Gallery__content {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .Gallery__main {
+      display: inline-block;
+      width: 75%;
+      height: 100%;
+      padding-right: 50px;
+    }
+
+    .Gallery__pictures {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+
+    .Gallery__item {
+      display: flex;
+      width: 33%;
+      height: 300px;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+
+    .Gallery__item:nth-child(3n+2) {
+      margin: 0 0.5%;
+    }
+
+    .Gallery__item img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 1360px) {
+      .Gallery {
+        padding: 40px;
+      }
+    }
+
+    /* iPad Mini width: 768px */
+    @media (max-width: 767px) {
+      .Gallery {
+        padding: 52px 20px;
+      }
+
+      .Gallery__main {
+        width: 100%;
+        padding-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="Gallery">
+    <div class="Gallery__content">
+      <main class="Gallery__main">
+        <h2>Los Rolling Stones</h2>
+        <h3>Mezclarte 2017</h3>
+        <div class="Gallery__pictures">
+          <div class="Gallery__item">
+            <img src="https://i.pinimg.com/originals/f0/1f/e5/f01fe5816074a1da43bc91e8a9bb09d0.jpg" alt="Rolling Stones Mezclarte 2017">
+          </div>
+
+          <div class="Gallery__item">
+            <img src="https://i.pinimg.com/originals/f0/1f/e5/f01fe5816074a1da43bc91e8a9bb09d0.jpg" alt="Rolling Stones Mezclarte 2017">
+          </div>
+
+          <div class="Gallery__item">
+            <img src="https://i.pinimg.com/originals/f0/1f/e5/f01fe5816074a1da43bc91e8a9bb09d0.jpg" alt="Rolling Stones Mezclarte 2017">
+          </div>
+
+          <div class="Gallery__item">
+            <img src="https://i.pinimg.com/originals/f0/1f/e5/f01fe5816074a1da43bc91e8a9bb09d0.jpg" alt="Rolling Stones Mezclarte 2017">
+          </div>
+
+          <div class="Gallery__item">
+            <img src="https://i.pinimg.com/originals/f0/1f/e5/f01fe5816074a1da43bc91e8a9bb09d0.jpg" alt="Rolling Stones Mezclarte 2017">
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

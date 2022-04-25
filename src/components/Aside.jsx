@@ -6,7 +6,7 @@ const Aside = () => {
   return (
     <aside className="Aside">
       <div className="Aside__addElement">
-        <a href>
+        <a href="https://saladeprensa.exintex.com" target="_blank">
           <img src={ExintexBanner} alt="Exintex add banner" />
         </a>
       </div>
