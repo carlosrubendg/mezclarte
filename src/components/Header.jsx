@@ -57,6 +57,9 @@ const Header = () => {
                 <a href="/">INICIO</a>
               </li>
               <li>
+                <a href="/convocatoria-mezclarte-2022.pdf" target='_blank'>MEZCLARTE 2022</a>
+              </li>
+              <li>
                 <a href="/shop">TIENDA EN LÍNEA</a>
               </li>
             </ul>

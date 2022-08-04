@@ -7,7 +7,9 @@ import Madonna from '../pages/concursos/Madonna';
 import ErranteEcologico from '../pages/colectivos/ErranteEcologico';
 import VaquerosDelFuturo from '../pages/colectivos/VaquerosDelFuturo';
 import ArtesPlasticas from '../pages/colectivos/ArtesPlasticas';
-import Gallery from '../pages/Gallery';
+import { ConvocatoriaMezclarte2022 } from '../pages/ConvocatoriaMezclarte2022';
+import { Shop } from '../pages/Shop';
+import { Error404 } from '../pages/Error404';
 import '../styles/_global.css';
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
           <Route path="/colectivos/errante-ecologico" element={<ErranteEcologico />} />
           <Route path="/colectivos/vaqueros-del-futuro" element={<VaquerosDelFuturo />} />
           <Route path="/colectivos/artes-plasticas" element={<ArtesPlasticas />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/convocatoria-mezclarte-2022" element={<ConvocatoriaMezclarte2022 />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </Layout>
     </BrowserRouter>
